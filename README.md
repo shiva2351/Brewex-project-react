@@ -19,3 +19,8 @@
 # Defendencies
 
 . react-router-dom
+. react-icons 
+
+# icons
+
+.  ( SlArrowDown...)

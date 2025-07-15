@@ -4,9 +4,12 @@ import "./index.css"
 const Header=()=>{
     console.log("header")
     return <nav className="header">
-        <ul className="head-ul"><li className="logo-card">About</li>
-        <li className="head-user">
-        service</li> <SlArrowDown/></ul>
+        <ul className="head-ul">
+            <li >About</li>
+            <li>
+                service<SlArrowDown/>
+            </li>
+        </ul>
     </nav>
 }
 

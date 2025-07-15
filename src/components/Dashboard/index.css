@@ -1,16 +1,8 @@
-.Dash-ul{
-    display:flex;
-    list-style-type: none;
-    justify-content: space-between;
-    padding:0px;
-    border-bottom: 1px solid #cccccc;
-}
-.Dash-ul-user{
-    list-style-type: none;
-    padding:0;
-    margin: 0;
-    
-    border:1px solid #cccccc;
+
+.dash-card-content{
+    height:90vh;
+    border:2px solid red;
+    display: flex;
 }
 .dash{
     padding: 0;
@@ -22,105 +14,27 @@
     flex-direction: column;
     align-items: center;
 }
-.dash-sort-card{
-    display: flex;
-    justify-content: space-around;
-    flex-basis: 30%;
-}
-.dash-sort{
-    display: flex;
-    align-items: center;
+
+.dash-background-card{
+    border:2px solid red;
+    width:40%;
+    height:60%;
+    background-image: url("https://res.cloudinary.com/delrn2vxa/image/upload/v1752550392/c257a9595ce3eddd17534d8cb91a80062f10fbff_nuihxu.png");
 }
 .dash-card{
+    border:2px solid blue;
+    width:60%;
+    height:60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.search-card{
-    width:15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-    border:3px solid #cccccc;
-    border-radius: 7px;
-    padding:6px;
-}
-.search-input{
-    border-color: transparent;
-    border:transparent;
-    height:100%;
-    flex-grow:1;
-}
-.Dash-ul-default{
-    list-style-type: none;
-    padding:0;
-    display:flex;
-    flex-basis:100%;
-    font-weight: 600;
-    background-color: #cccccc;
-    margin: 0;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.Dash-li-default{
-    flex-grow:2;
-    display:flex;
-    align-items: center;
-    justify-content: left;
-    padding:10px;
-    width:25%;
-    text-align: left;
-    flex-wrap: nowrap;
-    overflow:hidden;
-    white-space: nowrap;
-    
-}
-.li-id{
-    flex-grow:1;
-    width:10%;
 }
 
-
-.dash-card-content{
-    height:90vh;
-}
-.dash-ul-card{
-    padding:0;
-}
-
-.dash-bottom-card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.style-text{
+    color: #FFBD59;
 
 }
-.dash-bottom-content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: ce;
-}
-.dash-tab{
-    width:20px;
-    height: 20px;
-    border:none;
+.dash-btn{
+    background: #FFBD59;
+    width: 123.2699966430664;
+height: 44;
 
-}
-.dash-tab-active{
-    border:1px solid grey;
-    width:20px;
-    height: 20px;
-    margin-left: 6px;
-
-}
-
-.dash-page{
-    margin-left: 4px;
-    border:2px solid #cccccc;
-    border-radius: 6px;
-    padding:3px;
-}
-.dash-bottom-card-1{
-    margin-right: 4px;
 }
